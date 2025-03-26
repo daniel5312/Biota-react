@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../assets/hero.jpg'; // Agrega tu imagen en src/assets
+import heroImage from '../assets/20201010_103457.jpg'; // Agrega tu imagen en src/assets
 
 const Hero = () => {
   return (
@@ -7,7 +7,8 @@ const Hero = () => {
       backgroundImage: `url(${heroImage})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height: '80vh'
+      height: '50vh'
+
     }}>
       <div className="container text-center">
         <h1 className="display-4 fw-bold">Agricultura Regenerativa</h1>
