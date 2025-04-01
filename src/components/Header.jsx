@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-success">
       <div className="container">
         <a className="navbar-brand" href="#">Biota Orgánicos</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

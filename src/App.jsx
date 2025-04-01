@@ -1,9 +1,12 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import CarouselComponent from './components/CarouselComponent';
 import Section from './components/Section';
 import Footer from './components/Footer';
+import './pages/Productor';
+import Productor from './pages/Productor';
 
 const App = () => {
   return (
@@ -17,6 +20,9 @@ const App = () => {
         <Section image="../src/assets/Insignia por haber creado 100 diseños en Canva.png" title="Capacitaciones" text="Aprende sobre prácticas agrícolas sostenibles" />
         <Section image="../src/assets/BIOTA ORGANICOS Y ARTESANAL.png" title="Únete a nuestra comunidad" text="Forma parte del cambio hacia la sostenibilidad" reverse />
       </div>
+        
+      <Routes></Routes>
+        <Route path="/Productor" element={<Productor />} />
       <Footer />
     </div>
   );
